@@ -1,0 +1,701 @@
+fileFormatVersion: 2
+guid: 6340abb43f916f941bbcb042d9ed6207
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Bathroom
+    100002: Bathroom_Shelf3
+    100004: BathTube
+    100006: Bathtube
+    100008: Book_1
+    100010: Book_pck
+    100012: Book_pck1
+    100014: Book_pck2
+    100016: Book_pck3
+    100018: Book_pck4
+    100020: Book_pck5
+    100022: Book_Shelf1
+    100024: Book_Shelf2
+    100026: Bookshelf_Office
+    100028: Bookshelft
+    100030: Building
+    100032: Carpet
+    100034: Carpet1
+    100036: Cellphone
+    100038: Computer
+    100040: Desk_Office
+    100042: Dining_Chair
+    100044: Dining_Chair1
+    100046: Dining_Chair2
+    100048: Dining_Chair3
+    100050: Dining_Room
+    100052: Dirth_clothes
+    100054: Entrance
+    100056: Entrance_Desk
+    100058: Floor
+    100060: Floor 1
+    100062: Floor1
+    100064: Floor2
+    100066: Floor3
+    100068: Floor4
+    100070: Floor5
+    100072: Floor6
+    100074: Floor7
+    100076: Floor8
+    100078: Frame
+    100080: Frame1
+    100082: Frame2
+    100084: Frame3
+    100086: Frame4
+    100088: Frame5
+    100090: Frame6
+    100092: Frame7
+    100094: Frame_Entrance
+    100096: Frames
+    100098: Lamp
+    100100: Lamp 1
+    100102: Lamp1
+    100104: Lamp_1
+    100106: Lamp_2
+    100108: Lamp_Office
+    100110: //RootNode
+    100112: Living_Room1
+    100114: Office
+    100116: Office_Chair
+    100118: Office_Chair 1
+    100120: Office_Chair 2
+    100122: Office_Chair 3
+    100124: Office_Chair 4
+    100126: Office_Chair 5
+    100128: Office_Chair_Base
+    100130: Office_Chair_Base 1
+    100132: Office_Chair_Base 2
+    100134: Office_Chair_Base 3
+    100136: Office_Chair_Base 4
+    100138: pCube1
+    100140: pCube10
+    100142: pCube11
+    100144: pCube12
+    100146: pCube3
+    100148: pCube4
+    100150: pCube5
+    100152: pCube6
+    100154: pCube7
+    100156: pCube8
+    100158: pCube9
+    100160: pCylinder1
+    100162: pCylinder2
+    100164: Reading_Chair
+    100166: Reading_Chair 1
+    100168: Ref
+    100170: Ref1
+    100172: Ref2
+    100174: Ref3
+    100176: Ref4
+    100178: Ref5
+    100180: Shelf_Entrance
+    100182: Shelf_Entrance1
+    100184: Shower
+    100186: Sink
+    100188: Sink 1
+    100190: Sink_base
+    100192: Sofa
+    100194: Sofa_Main1
+    100196: Sofa_sup10
+    100198: Sofa_sup9
+    100200: SunfLower
+    100202: Table_base
+    100204: Table_Dining
+    100206: Table_Dining 1
+    100208: Toilet
+    100210: Toilet_Base
+    100212: Toliet_top
+    100214: TV
+    100216: TV_Antena_4
+    100218: TV_Set
+    100220: TV_Shelf
+    100222: TV_Shelf_5
+    100224: Wall_1
+    100226: Wall_10
+    100228: Wall_12
+    100230: Wall_13
+    100232: Wall_15
+    100234: Wall_16
+    100236: Wall_17
+    100238: Wall_18
+    100240: Wall_19
+    100242: Wall_2
+    100244: Wall_20
+    100246: Wall_21
+    100248: Wall_22
+    100250: Wall_23
+    100252: Wall_24
+    100254: Wall_25
+    100256: Wall_26
+    100258: Wall_27
+    100260: Wall_28
+    100262: Wall_3
+    100264: Wall_30
+    100266: Wall_31
+    100268: Wall_32
+    100270: Wall_33
+    100272: Wall_34
+    100274: Wall_35
+    400000: Bathroom
+    400002: Bathroom_Shelf3
+    400004: BathTube
+    400006: Bathtube
+    400008: Book_1
+    400010: Book_pck
+    400012: Book_pck1
+    400014: Book_pck2
+    400016: Book_pck3
+    400018: Book_pck4
+    400020: Book_pck5
+    400022: Book_Shelf1
+    400024: Book_Shelf2
+    400026: Bookshelf_Office
+    400028: Bookshelft
+    400030: Building
+    400032: Carpet
+    400034: Carpet1
+    400036: Cellphone
+    400038: Computer
+    400040: Desk_Office
+    400042: Dining_Chair
+    400044: Dining_Chair1
+    400046: Dining_Chair2
+    400048: Dining_Chair3
+    400050: Dining_Room
+    400052: Dirth_clothes
+    400054: Entrance
+    400056: Entrance_Desk
+    400058: Floor
+    400060: Floor 1
+    400062: Floor1
+    400064: Floor2
+    400066: Floor3
+    400068: Floor4
+    400070: Floor5
+    400072: Floor6
+    400074: Floor7
+    400076: Floor8
+    400078: Frame
+    400080: Frame1
+    400082: Frame2
+    400084: Frame3
+    400086: Frame4
+    400088: Frame5
+    400090: Frame6
+    400092: Frame7
+    400094: Frame_Entrance
+    400096: Frames
+    400098: Lamp
+    400100: Lamp 1
+    400102: Lamp1
+    400104: Lamp_1
+    400106: Lamp_2
+    400108: Lamp_Office
+    400110: //RootNode
+    400112: Living_Room1
+    400114: Office
+    400116: Office_Chair
+    400118: Office_Chair 1
+    400120: Office_Chair 2
+    400122: Office_Chair 3
+    400124: Office_Chair 4
+    400126: Office_Chair 5
+    400128: Office_Chair_Base
+    400130: Office_Chair_Base 1
+    400132: Office_Chair_Base 2
+    400134: Office_Chair_Base 3
+    400136: Office_Chair_Base 4
+    400138: pCube1
+    400140: pCube10
+    400142: pCube11
+    400144: pCube12
+    400146: pCube3
+    400148: pCube4
+    400150: pCube5
+    400152: pCube6
+    400154: pCube7
+    400156: pCube8
+    400158: pCube9
+    400160: pCylinder1
+    400162: pCylinder2
+    400164: Reading_Chair
+    400166: Reading_Chair 1
+    400168: Ref
+    400170: Ref1
+    400172: Ref2
+    400174: Ref3
+    400176: Ref4
+    400178: Ref5
+    400180: Shelf_Entrance
+    400182: Shelf_Entrance1
+    400184: Shower
+    400186: Sink
+    400188: Sink 1
+    400190: Sink_base
+    400192: Sofa
+    400194: Sofa_Main1
+    400196: Sofa_sup10
+    400198: Sofa_sup9
+    400200: SunfLower
+    400202: Table_base
+    400204: Table_Dining
+    400206: Table_Dining 1
+    400208: Toilet
+    400210: Toilet_Base
+    400212: Toliet_top
+    400214: TV
+    400216: TV_Antena_4
+    400218: TV_Set
+    400220: TV_Shelf
+    400222: TV_Shelf_5
+    400224: Wall_1
+    400226: Wall_10
+    400228: Wall_12
+    400230: Wall_13
+    400232: Wall_15
+    400234: Wall_16
+    400236: Wall_17
+    400238: Wall_18
+    400240: Wall_19
+    400242: Wall_2
+    400244: Wall_20
+    400246: Wall_21
+    400248: Wall_22
+    400250: Wall_23
+    400252: Wall_24
+    400254: Wall_25
+    400256: Wall_26
+    400258: Wall_27
+    400260: Wall_28
+    400262: Wall_3
+    400264: Wall_30
+    400266: Wall_31
+    400268: Wall_32
+    400270: Wall_33
+    400272: Wall_34
+    400274: Wall_35
+    2100000: lambert1
+    2300000: Bathroom_Shelf3
+    2300002: Bathtube
+    2300004: Book_1
+    2300006: Book_pck
+    2300008: Book_pck1
+    2300010: Book_pck2
+    2300012: Book_pck3
+    2300014: Book_pck4
+    2300016: Book_pck5
+    2300018: Book_Shelf1
+    2300020: Book_Shelf2
+    2300022: Carpet
+    2300024: Carpet1
+    2300026: Cellphone
+    2300028: Computer
+    2300030: Desk_Office
+    2300032: Entrance_Desk
+    2300034: Floor 1
+    2300036: Floor1
+    2300038: Floor2
+    2300040: Floor3
+    2300042: Floor4
+    2300044: Floor5
+    2300046: Floor6
+    2300048: Floor7
+    2300050: Floor8
+    2300052: Frame
+    2300054: Frame1
+    2300056: Frame2
+    2300058: Frame3
+    2300060: Frame4
+    2300062: Frame5
+    2300064: Frame6
+    2300066: Frame7
+    2300068: Frame_Entrance
+    2300070: Lamp 1
+    2300072: Lamp1
+    2300074: Lamp_1
+    2300076: Lamp_2
+    2300078: Office_Chair 1
+    2300080: Office_Chair 2
+    2300082: Office_Chair 3
+    2300084: Office_Chair 4
+    2300086: Office_Chair 5
+    2300088: Office_Chair_Base
+    2300090: Office_Chair_Base 1
+    2300092: Office_Chair_Base 2
+    2300094: Office_Chair_Base 3
+    2300096: Office_Chair_Base 4
+    2300098: pCube1
+    2300100: pCube10
+    2300102: pCube11
+    2300104: pCube12
+    2300106: pCube3
+    2300108: pCube4
+    2300110: pCube5
+    2300112: pCube6
+    2300114: pCube7
+    2300116: pCube8
+    2300118: pCube9
+    2300120: pCylinder1
+    2300122: pCylinder2
+    2300124: Reading_Chair 1
+    2300126: Ref
+    2300128: Ref1
+    2300130: Ref2
+    2300132: Ref3
+    2300134: Ref4
+    2300136: Ref5
+    2300138: Shelf_Entrance
+    2300140: Shelf_Entrance1
+    2300142: Shower
+    2300144: Sink 1
+    2300146: Sink_base
+    2300148: Sofa_Main1
+    2300150: Sofa_sup10
+    2300152: Sofa_sup9
+    2300154: Table_base
+    2300156: Table_Dining 1
+    2300158: Toilet_Base
+    2300160: Toliet_top
+    2300162: TV
+    2300164: TV_Antena_4
+    2300166: TV_Shelf
+    2300168: TV_Shelf_5
+    2300170: Wall_1
+    2300172: Wall_10
+    2300174: Wall_12
+    2300176: Wall_13
+    2300178: Wall_15
+    2300180: Wall_16
+    2300182: Wall_17
+    2300184: Wall_18
+    2300186: Wall_19
+    2300188: Wall_2
+    2300190: Wall_20
+    2300192: Wall_21
+    2300194: Wall_22
+    2300196: Wall_23
+    2300198: Wall_24
+    2300200: Wall_25
+    2300202: Wall_26
+    2300204: Wall_27
+    2300206: Wall_28
+    2300208: Wall_3
+    2300210: Wall_30
+    2300212: Wall_31
+    2300214: Wall_32
+    2300216: Wall_33
+    2300218: Wall_34
+    2300220: Wall_35
+    3300000: Bathroom_Shelf3
+    3300002: Bathtube
+    3300004: Book_1
+    3300006: Book_pck
+    3300008: Book_pck1
+    3300010: Book_pck2
+    3300012: Book_pck3
+    3300014: Book_pck4
+    3300016: Book_pck5
+    3300018: Book_Shelf1
+    3300020: Book_Shelf2
+    3300022: Carpet
+    3300024: Carpet1
+    3300026: Cellphone
+    3300028: Computer
+    3300030: Desk_Office
+    3300032: Entrance_Desk
+    3300034: Floor 1
+    3300036: Floor1
+    3300038: Floor2
+    3300040: Floor3
+    3300042: Floor4
+    3300044: Floor5
+    3300046: Floor6
+    3300048: Floor7
+    3300050: Floor8
+    3300052: Frame
+    3300054: Frame1
+    3300056: Frame2
+    3300058: Frame3
+    3300060: Frame4
+    3300062: Frame5
+    3300064: Frame6
+    3300066: Frame7
+    3300068: Frame_Entrance
+    3300070: Lamp 1
+    3300072: Lamp1
+    3300074: Lamp_1
+    3300076: Lamp_2
+    3300078: Office_Chair 1
+    3300080: Office_Chair 2
+    3300082: Office_Chair 3
+    3300084: Office_Chair 4
+    3300086: Office_Chair 5
+    3300088: Office_Chair_Base
+    3300090: Office_Chair_Base 1
+    3300092: Office_Chair_Base 2
+    3300094: Office_Chair_Base 3
+    3300096: Office_Chair_Base 4
+    3300098: pCube1
+    3300100: pCube10
+    3300102: pCube11
+    3300104: pCube12
+    3300106: pCube3
+    3300108: pCube4
+    3300110: pCube5
+    3300112: pCube6
+    3300114: pCube7
+    3300116: pCube8
+    3300118: pCube9
+    3300120: pCylinder1
+    3300122: pCylinder2
+    3300124: Reading_Chair 1
+    3300126: Ref
+    3300128: Ref1
+    3300130: Ref2
+    3300132: Ref3
+    3300134: Ref4
+    3300136: Ref5
+    3300138: Shelf_Entrance
+    3300140: Shelf_Entrance1
+    3300142: Shower
+    3300144: Sink 1
+    3300146: Sink_base
+    3300148: Sofa_Main1
+    3300150: Sofa_sup10
+    3300152: Sofa_sup9
+    3300154: Table_base
+    3300156: Table_Dining 1
+    3300158: Toilet_Base
+    3300160: Toliet_top
+    3300162: TV
+    3300164: TV_Antena_4
+    3300166: TV_Shelf
+    3300168: TV_Shelf_5
+    3300170: Wall_1
+    3300172: Wall_10
+    3300174: Wall_12
+    3300176: Wall_13
+    3300178: Wall_15
+    3300180: Wall_16
+    3300182: Wall_17
+    3300184: Wall_18
+    3300186: Wall_19
+    3300188: Wall_2
+    3300190: Wall_20
+    3300192: Wall_21
+    3300194: Wall_22
+    3300196: Wall_23
+    3300198: Wall_24
+    3300200: Wall_25
+    3300202: Wall_26
+    3300204: Wall_27
+    3300206: Wall_28
+    3300208: Wall_3
+    3300210: Wall_30
+    3300212: Wall_31
+    3300214: Wall_32
+    3300216: Wall_33
+    3300218: Wall_34
+    3300220: Wall_35
+    4300000: Ref
+    4300002: Ref1
+    4300004: Ref2
+    4300006: Ref5
+    4300008: Floor8
+    4300010: Floor7
+    4300012: Floor6
+    4300014: Floor5
+    4300016: Floor4
+    4300018: Floor3
+    4300020: Floor2
+    4300022: Floor1
+    4300024: Wall_35
+    4300026: Wall_34
+    4300028: Wall_33
+    4300030: Wall_32
+    4300032: Wall_31
+    4300034: Wall_30
+    4300036: Wall_28
+    4300038: Wall_27
+    4300040: pCube1
+    4300042: Wall_26
+    4300044: Wall_25
+    4300046: Wall_24
+    4300048: Wall_23
+    4300050: Wall_22
+    4300052: Wall_21
+    4300054: Wall_20
+    4300056: Wall_19
+    4300058: Wall_18
+    4300060: Wall_17
+    4300062: Wall_16
+    4300064: Wall_15
+    4300066: Wall_13
+    4300068: Wall_12
+    4300070: Wall_10
+    4300072: Wall_3
+    4300074: Wall_2
+    4300076: Wall_1
+    4300078: Floor
+    4300080: TV
+    4300082: TV_Shelf
+    4300084: TV_Shelf_5
+    4300086: TV_Antena_4
+    4300088: Reading_Chair
+    4300090: Sofa_sup9
+    4300092: Book_1
+    4300094: Book_pck
+    4300096: Book_pck1
+    4300098: Book_pck2
+    4300100: Book_Shelf1
+    4300102: Lamp
+    4300104: Lamp_1
+    4300106: Frame
+    4300108: Frame2
+    4300110: Sofa_Main1
+    4300112: Sofa_sup10
+    4300114: Carpet
+    4300116: pCylinder1
+    4300118: pCylinder2
+    4300120: Entrance_Desk
+    4300122: Carpet1
+    4300124: Frame_Entrance
+    4300126: Shelf_Entrance1
+    4300128: Shelf_Entrance
+    4300130: Frame6
+    4300132: Frame5
+    4300134: Frame7
+    4300136: Desk_Office
+    4300138: Computer
+    4300140: Office_Chair_Base
+    4300142: Office_Chair
+    4300144: Ref3
+    4300146: Book_pck3
+    4300148: Book_pck4
+    4300150: Book_pck5
+    4300152: Book_Shelf2
+    4300154: Frame4
+    4300156: Frame3
+    4300158: Lamp1
+    4300160: Lamp_2
+    4300162: Cellphone
+    4300164: Office_Chair_Base
+    4300166: Office_Chair
+    4300168: Office_Chair_Base
+    4300170: Office_Chair
+    4300172: Office_Chair_Base
+    4300174: Office_Chair
+    4300176: Table_base
+    4300178: Table_Dining
+    4300180: Office_Chair_Base
+    4300182: Office_Chair
+    4300184: Ref4
+    4300186: pCube7
+    4300188: pCube8
+    4300190: pCube9
+    4300192: pCube10
+    4300194: pCube11
+    4300196: pCube12
+    4300198: Sink_base
+    4300200: Sink
+    4300202: Bathroom_Shelf3
+    4300204: Toliet_top
+    4300206: Toilet_Base
+    4300208: Shower
+    4300210: pCube6
+    4300212: pCube5
+    4300214: pCube4
+    4300216: pCube3
+    4300218: Bathtube
+    4300220: Frame1
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 10
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

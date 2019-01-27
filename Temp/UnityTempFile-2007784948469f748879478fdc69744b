@@ -1,0 +1,714 @@
+/target:library
+/nowarn:0169
+/out:Temp/Unity.ShaderGraph.Editor.dll
+/debug:portable
+/optimize-
+/nostdlib+
+/preferreduilang:en-US
+/langversion:latest
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\Managed/UnityEngine/UnityEngine.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\Managed/UnityEngine/UnityEngine.AIModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\Managed/UnityEngine/UnityEngine.ARModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\Managed/UnityEngine/UnityEngine.AudioModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\Managed/UnityEngine/UnityEngine.BaselibModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\Managed/UnityEngine/UnityEngine.ClothModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\Managed/UnityEngine/UnityEngine.ClusterInputModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\Managed/UnityEngine/UnityEngine.CoreModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\Managed/UnityEngine/UnityEngine.FileSystemHttpModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\Managed/UnityEngine/UnityEngine.GridModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\Managed/UnityEngine/UnityEngine.HotReloadModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\Managed/UnityEngine/UnityEngine.InputModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\Managed/UnityEngine/UnityEngine.LocalizationModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\Managed/UnityEngine/UnityEngine.ProfilerModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\Managed/UnityEngine/UnityEngine.SpatialTrackingModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\Managed/UnityEngine/UnityEngine.StreamingModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\Managed/UnityEngine/UnityEngine.SubstanceModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\Managed/UnityEngine/UnityEngine.TLSModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\Managed/UnityEngine/UnityEngine.TextCoreModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\Managed/UnityEngine/UnityEngine.TimelineModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\Managed/UnityEngine/UnityEngine.UIModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\Managed/UnityEngine/UnityEngine.UNETModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\Managed/UnityEngine/UnityEngine.UmbraModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\Managed/UnityEngine/UnityEngine.VFXModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\Managed/UnityEngine/UnityEngine.VRModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\Managed/UnityEngine/UnityEngine.VideoModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\Managed/UnityEngine/UnityEngine.WindModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\Managed/UnityEngine/UnityEngine.XRModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\Managed/UnityEditor.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\Managed/Unity.Locator.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2018.3.3f1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2018.3.3f1/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2018.3.3f1/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2018.3.3f1/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2018.3.3f1/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2018.3.3f1/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2018.3.3f1/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2018.3.3f1/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2018.3.3f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2018.3.3f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2018.3.3f1/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2018.3.3f1/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll"
+/reference:"C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll"
+/reference:Assets/KinematicSoup/KSCommon.Unity2018_3.dll
+/reference:Assets/KinematicSoup/Editor/KSCommon-Editor.Unity2018_3.dll
+/reference:Assets/KinematicSoup/SceneFusion/KSSceneFusion.Unity2018_3.dll
+/reference:Assets/KinematicSoup/SceneFusion/Editor/KSSceneFusion-Editor.Unity2018_3.dll
+/reference:D:/Projects/UnityProjects/Unity_2018.1.5f1/Ota/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll
+/reference:D:/Projects/UnityProjects/Unity_2018.1.5f1/Ota/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll
+/reference:D:/Projects/UnityProjects/Unity_2018.1.5f1/Ota/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll
+/reference:D:/Projects/UnityProjects/Unity_2018.1.5f1/Ota/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll
+/reference:D:/Projects/UnityProjects/Unity_2018.1.5f1/Ota/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\mscorlib.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Core.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Runtime.Serialization.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Xml.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Xml.Linq.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Numerics.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Numerics.Vectors.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Net.Http.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Microsoft.CSharp.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Data.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\Microsoft.Win32.Primitives.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\netstandard.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.AppContext.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.Concurrent.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.NonGeneric.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.Specialized.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.Annotations.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.EventBasedAsync.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.Primitives.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.TypeConverter.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Console.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Data.Common.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Contracts.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Debug.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.FileVersionInfo.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Process.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.StackTrace.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.TextWriterTraceListener.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Tools.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.TraceSource.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Drawing.Primitives.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Dynamic.Runtime.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Globalization.Calendars.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Globalization.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Globalization.Extensions.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.Compression.ZipFile.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.DriveInfo.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.Primitives.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.Watcher.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.IsolatedStorage.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.MemoryMappedFiles.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.Pipes.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.UnmanagedMemoryStream.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.Expressions.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.Parallel.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.Queryable.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Http.Rtc.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.NameResolution.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.NetworkInformation.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Ping.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Primitives.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Requests.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Security.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Sockets.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.WebHeaderCollection.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.WebSockets.Client.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.WebSockets.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ObjectModel.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Emit.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Emit.ILGeneration.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Emit.Lightweight.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Extensions.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Primitives.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Resources.Reader.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Resources.ResourceManager.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Resources.Writer.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.CompilerServices.VisualC.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Extensions.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Handles.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.InteropServices.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.InteropServices.RuntimeInformation.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.InteropServices.WindowsRuntime.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Numerics.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Formatters.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Json.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Primitives.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Xml.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Claims.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Algorithms.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Csp.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Encoding.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Primitives.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.X509Certificates.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Principal.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.SecureString.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Duplex.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Http.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.NetTcp.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Primitives.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Security.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Text.Encoding.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Text.Encoding.Extensions.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Text.RegularExpressions.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Overlapped.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Tasks.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Tasks.Parallel.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Thread.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.ThreadPool.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Timer.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ValueTuple.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.ReaderWriter.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XDocument.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XmlDocument.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XmlSerializer.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XPath.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XPath.XDocument.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\unityscript\UnityScript.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\unityscript\UnityScript.Lang.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.3.3f1\Editor\Data\MonoBleedingEdge\lib\mono\unityscript\Boo.Lang.dll"
+/define:UNITY_5_3_OR_NEWER
+/define:UNITY_5_4_OR_NEWER
+/define:UNITY_5_5_OR_NEWER
+/define:UNITY_5_6_OR_NEWER
+/define:UNITY_2017_1_OR_NEWER
+/define:UNITY_2017_2_OR_NEWER
+/define:UNITY_2017_3_OR_NEWER
+/define:UNITY_2017_4_OR_NEWER
+/define:UNITY_2018_1_OR_NEWER
+/define:UNITY_2018_2_OR_NEWER
+/define:UNITY_2018_3_OR_NEWER
+/define:UNITY_2018_3_3
+/define:UNITY_2018_3
+/define:UNITY_2018
+/define:PLATFORM_ARCH_64
+/define:UNITY_64
+/define:UNITY_INCLUDE_TESTS
+/define:ENABLE_AUDIO
+/define:ENABLE_CACHING
+/define:ENABLE_CLOTH
+/define:ENABLE_DUCK_TYPING
+/define:ENABLE_MICROPHONE
+/define:ENABLE_MULTIPLE_DISPLAYS
+/define:ENABLE_PHYSICS
+/define:ENABLE_SPRITES
+/define:ENABLE_GRID
+/define:ENABLE_TILEMAP
+/define:ENABLE_TERRAIN
+/define:ENABLE_TEXTURE_STREAMING
+/define:ENABLE_DIRECTOR
+/define:ENABLE_UNET
+/define:ENABLE_LZMA
+/define:ENABLE_UNITYEVENTS
+/define:ENABLE_WEBCAM
+/define:ENABLE_WWW
+/define:ENABLE_CLOUD_SERVICES_COLLAB
+/define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+/define:ENABLE_CLOUD_SERVICES_ADS
+/define:ENABLE_CLOUD_HUB
+/define:ENABLE_CLOUD_PROJECT_ID
+/define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+/define:ENABLE_CLOUD_SERVICES_UNET
+/define:ENABLE_CLOUD_SERVICES_BUILD
+/define:ENABLE_CLOUD_LICENSE
+/define:ENABLE_EDITOR_HUB
+/define:ENABLE_EDITOR_HUB_LICENSE
+/define:ENABLE_WEBSOCKET_CLIENT
+/define:ENABLE_DIRECTOR_AUDIO
+/define:ENABLE_DIRECTOR_TEXTURE
+/define:ENABLE_TIMELINE
+/define:ENABLE_EDITOR_METRICS
+/define:ENABLE_EDITOR_METRICS_CACHING
+/define:ENABLE_MANAGED_JOBS
+/define:ENABLE_MANAGED_TRANSFORM_JOBS
+/define:ENABLE_MANAGED_ANIMATION_JOBS
+/define:INCLUDE_DYNAMIC_GI
+/define:INCLUDE_GI
+/define:ENABLE_MONO_BDWGC
+/define:PLATFORM_SUPPORTS_MONO
+/define:RENDER_SOFTWARE_CURSOR
+/define:INCLUDE_PUBNUB
+/define:ENABLE_VIDEO
+/define:ENABLE_CUSTOM_RENDER_TEXTURE
+/define:ENABLE_LOCALIZATION
+/define:PLATFORM_STANDALONE_WIN
+/define:PLATFORM_STANDALONE
+/define:UNITY_STANDALONE_WIN
+/define:UNITY_STANDALONE
+/define:ENABLE_SUBSTANCE
+/define:ENABLE_RUNTIME_GI
+/define:ENABLE_MOVIES
+/define:ENABLE_NETWORK
+/define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+/define:ENABLE_UNITYWEBREQUEST
+/define:ENABLE_CLOUD_SERVICES
+/define:ENABLE_CLOUD_SERVICES_ANALYTICS
+/define:ENABLE_CLOUD_SERVICES_PURCHASING
+/define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+/define:ENABLE_OUT_OF_PROCESS_CRASH_HANDLER
+/define:ENABLE_EVENT_QUEUE
+/define:ENABLE_CLUSTER_SYNC
+/define:ENABLE_CLUSTERINPUT
+/define:ENABLE_VR
+/define:ENABLE_AR
+/define:ENABLE_WEBSOCKET_HOST
+/define:ENABLE_MONO
+/define:NET_4_6
+/define:ENABLE_PROFILER
+/define:DEBUG
+/define:TRACE
+/define:UNITY_ASSERTIONS
+/define:UNITY_EDITOR
+/define:UNITY_EDITOR_64
+/define:UNITY_EDITOR_WIN
+/define:ENABLE_UNITY_COLLECTIONS_CHECKS
+/define:ENABLE_BURST_AOT
+/define:UNITY_TEAM_LICENSE
+/define:ENABLE_VSTU
+/define:UNITY_POST_PROCESSING_STACK_V2
+/define:CROSS_PLATFORM_INPUT
+/define:SCENE_FUSION
+/define:CSHARP_7_OR_LATER
+/define:CSHARP_7_3_OR_NEWER
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\AssetCallbacks\CreatePBRShaderGraph.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\AssetCallbacks\CreateShaderSubGraph.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\AssetCallbacks\CreateUnlitShaderGraph.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Graphs\AbstractMaterialGraph.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Graphs\AbstractMaterialGraphAsset.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Graphs\AbstractShaderProperty.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Graphs\BitangentMaterialSlot.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Graphs\BooleanMaterialSlot.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Graphs\BooleanShaderProperty.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Graphs\ColorMaterialSlot.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Graphs\ColorRGBMaterialSlot.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Graphs\ColorShaderProperty.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Graphs\CubemapInputMaterialSlot.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Graphs\CubemapMaterialSlot.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Graphs\CubemapShaderProperty.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Graphs\DynamicMatrixMaterialSlot.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Graphs\DynamicValueMaterialSlot.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Graphs\DynamicVectorMaterialSlot.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Graphs\GradientInputMaterialSlot.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Graphs\GradientMaterialSlot.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Graphs\GradientShaderProperty.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Graphs\IMaterialGraphAsset.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Graphs\IMaterialSlotHasValue.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Graphs\IShaderGraph.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Graphs\IShaderProperty.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Graphs\MaterialGraph.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Graphs\MaterialGraphAsset.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Graphs\MaterialSlot.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Graphs\Matrix2MaterialSlot.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Graphs\Matrix2ShaderProperty.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Graphs\Matrix3MaterialSlot.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Graphs\Matrix3ShaderProperty.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Graphs\Matrix4MaterialSlot.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Graphs\Matrix4ShaderProperty.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Graphs\MatrixShaderProperty.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Graphs\NormalMaterialSlot.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Graphs\PositionMaterialSlot.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Graphs\Precision.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Graphs\PreviewMode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Graphs\PreviewProperty.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Graphs\SamplerStateMaterialSlot.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Graphs\SamplerStateShaderProperty.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Graphs\ScreenPositionMaterialSlot.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Graphs\SerializableCubemap.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Graphs\SerializableGuid.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Graphs\SerializableMesh.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Graphs\SerializableTexture.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Graphs\SerializableTextureArray.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Graphs\ShaderGraphRequirements.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Graphs\SpaceMaterialSlot.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Graphs\TangentMaterialSlot.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Graphs\Texture2DArrayInputMaterialSlot.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Graphs\Texture2DArrayMaterialSlot.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Graphs\Texture2DArrayShaderProperty.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Graphs\Texture2DInputMaterialSlot.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Graphs\Texture2DMaterialSlot.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Graphs\Texture3DInputMaterialSlot.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Graphs\Texture3DMaterialSlot.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Graphs\Texture3DShaderProperty.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Graphs\TextureSamplerState.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Graphs\TextureShaderProperty.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Graphs\UVMaterialSlot.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Graphs\Vector1MaterialSlot.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Graphs\Vector1ShaderProperty.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Graphs\Vector2MaterialSlot.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Graphs\Vector2ShaderProperty.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Graphs\Vector3MaterialSlot.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Graphs\Vector3ShaderProperty.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Graphs\Vector4MaterialSlot.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Graphs\Vector4ShaderProperty.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Graphs\VectorShaderProperty.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Graphs\VertexColorMaterialSlot.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Graphs\ViewDirectionMaterialSlot.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Implementation\Edge.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Implementation\GraphObject.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Implementation\NodeUtils.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Implementation\SlotType.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Interfaces\GenerationMode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Interfaces\Graph\DrawState.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Interfaces\Graph\GraphDrawingData.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Interfaces\Graph\IEdge.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Interfaces\Graph\IGraph.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Interfaces\Graph\IGraphAsset.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Interfaces\Graph\IGraphObject.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Interfaces\Graph\INode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Interfaces\Graph\IOnAssetEnabled.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Interfaces\Graph\ISlot.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Interfaces\Graph\SlotReference.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Interfaces\IGenerateProperties.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Interfaces\IGeneratesBodyCode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Interfaces\IGeneratesFunction.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Interfaces\IHasSettings.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Interfaces\IMayRequireBitangent.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Interfaces\IMayRequireCameraOpaqueTexture.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Interfaces\IMayRequireDepthTexture.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Interfaces\IMayRequireFaceSign.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Interfaces\IMayRequireMeshUV.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Interfaces\IMayRequireNormal.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Interfaces\IMayRequirePosition.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Interfaces\IMayRequireScreenPosition.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Interfaces\IMayRequireTangent.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Interfaces\IMayRequireTime.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Interfaces\IMayRequireVertexColor.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Interfaces\IMayRequireViewDirection.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Interfaces\NeededCoordinateSpace.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\LightweightPipeline\LightweightFastBlinnMasterNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\MasterNodes\AlphaMode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\MasterNodes\DistortionMode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\MasterNodes\DoubleSidedMode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\MasterNodes\EmissionGIMode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\MasterNodes\IPBRSubShader.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\MasterNodes\ISubShader.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\MasterNodes\IUnlitSubShader.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\MasterNodes\PBRMasterNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\MasterNodes\SpecularOcclusionMode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\MasterNodes\UnlitMasterNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\AbstractMaterialNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Artistic\Adjustment\ChannelMixerNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Artistic\Adjustment\ContrastNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Artistic\Adjustment\HueNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Artistic\Adjustment\InvertColorsNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Artistic\Adjustment\ReplaceColorNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Artistic\Adjustment\SaturationNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Artistic\Adjustment\WhiteBalanceNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Artistic\Blend\BlendMode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Artistic\Blend\BlendNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Artistic\Filter\DitherNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Artistic\Mask\ChannelMaskNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Artistic\Mask\ColorMaskNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Artistic\Normal\NormalBlendNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Artistic\Normal\NormalFromHeightNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Artistic\Normal\NormalFromTextureNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Artistic\Normal\NormalReconstructZNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Artistic\Normal\NormalStrengthNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Artistic\Normal\NormalUnpackNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Artistic\Utility\ColorspaceConversion.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Channel\CombineNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Channel\FlipNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Channel\SplitNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Channel\SwizzleNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\CodeFunctionNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\FormerNameAttribute.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\FunctionMultiInput.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\GeometryNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\GuidEncoder.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\IMasterNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Input\Basic\BooleanNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Input\Basic\ColorNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Input\Basic\ConstantNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Input\Basic\IntegerNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Input\Basic\SliderNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Input\Basic\TimeNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Input\Basic\Vector1Node.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Input\Basic\Vector2Node.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Input\Basic\Vector3Node.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Input\Basic\Vector4Node.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Input\Geometry\BitangentVectorNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Input\Geometry\NormalVectorNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Input\Geometry\PositionNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Input\Geometry\ScreenPositionNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Input\Geometry\TangentVectorNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Input\Geometry\UVNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Input\Geometry\VertexColorNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Input\Geometry\ViewDirectionNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Input\Gradient\GradientNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Input\Gradient\SampleGradientNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Input\Lighting\AmbientNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Input\Lighting\BakedGINode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Input\Lighting\ReflectionProbeNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Input\Matrix\Matrix2Node.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Input\Matrix\Matrix3Node.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Input\Matrix\Matrix4Node.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Input\Matrix\TransformationMatrixNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Input\PBR\DielectricSpecularNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Input\PBR\MetalReflectanceNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Input\PropertyNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Input\Scene\CameraNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Input\Scene\FogNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Input\Scene\ObjectNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Input\Scene\SceneColorNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Input\Scene\SceneDepthNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Input\Scene\ScreenNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Input\Texture\CubemapAssetNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Input\Texture\SampleCubemapNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Input\Texture\SamplerStateNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Input\Texture\SampleTexture2DArrayNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Input\Texture\SampleTexture2DLODNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Input\Texture\SampleTexture2DNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Input\Texture\SampleTexture3DNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Input\Texture\TexelSizeNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Input\Texture\Texture2DArrayAssetNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Input\Texture\Texture2DAssetNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Input\Texture\Texture3DAssetNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\IPropertyFromNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\MasterNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Math\Advanced\AbsoluteNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Math\Advanced\ExponentialNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Math\Advanced\LengthNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Math\Advanced\LogNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Math\Advanced\ModuloNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Math\Advanced\NegateNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Math\Advanced\NormalizeNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Math\Advanced\PosterizeNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Math\Advanced\ReciprocalNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Math\Advanced\ReciprocalSquareRootNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Math\Basic\AddNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Math\Basic\DivideNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Math\Basic\MultiplyNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Math\Basic\PowerNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Math\Basic\SquareRootNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Math\Basic\SubtractNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Math\Derivative\DDXNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Math\Derivative\DDXYNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Math\Derivative\DDYNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Math\Interpolation\InverseLerpNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Math\Interpolation\LerpNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Math\Interpolation\SmoothstepNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Math\Matrix\MatrixConstructionNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Math\Matrix\MatrixDeterminantNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Math\Matrix\MatrixSplitNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Math\Matrix\MatrixTransposeNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Math\Range\ClampNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Math\Range\FractionNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Math\Range\MaximumNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Math\Range\MinimumNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Math\Range\OneMinusNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Math\Range\RandomRangeNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Math\Range\RemapNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Math\Range\SaturateNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Math\Round\CeilingNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Math\Round\FloorNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Math\Round\RoundNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Math\Round\SignNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Math\Round\StepNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Math\Round\TruncateNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Math\Trigonometry\ArccosineNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Math\Trigonometry\ArcsineNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Math\Trigonometry\Arctangent2Node.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Math\Trigonometry\ArctangentNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Math\Trigonometry\CosineNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Math\Trigonometry\DegreesToRadiansNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Math\Trigonometry\HyperbolicCosineNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Math\Trigonometry\HyperbolicSineNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Math\Trigonometry\HyperbolicTangentNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Math\Trigonometry\RadiansToDegreesNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Math\Trigonometry\SineNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Math\Trigonometry\TangentNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Math\Vector\CrossProductNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Math\Vector\DistanceNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Math\Vector\DotProductNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Math\Vector\FresnelEffectNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Math\Vector\ProjectionNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Math\Vector\ReflectionNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Math\Vector\RejectionNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Math\Vector\RotateAboutAxisNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Math\Vector\SphereMaskNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Math\Vector\TransformNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Math\Wave\NoiseSineWaveNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Math\Wave\SawtoothWaveNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Math\Wave\SquareWaveNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Math\Wave\TriangleWaveNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\NormalMapSpace.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Procedural\CheckerboardNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Procedural\Noise\GradientNoiseNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Procedural\Noise\SimpleNoiseNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Procedural\Noise\VoronoiNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Procedural\Shape\EllipseNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Procedural\Shape\PolygonNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Procedural\Shape\RectangleNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Procedural\Shape\RoundedRectangleNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\PropertyType.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\ShaderStage.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\SlotValue.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\TitleAttribute.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Utility\Logic\AllNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Utility\Logic\AndNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Utility\Logic\AnyNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Utility\Logic\BranchNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Utility\Logic\ComparisonNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Utility\Logic\IsFrontFaceNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Utility\Logic\IsInfiniteNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Utility\Logic\IsNanNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Utility\Logic\NandNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Utility\Logic\NotNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Utility\Logic\OrNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Utility\PreviewNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\Utility\SubGraphNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\UV\FlipbookNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\UV\PolarCoordinatesNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\UV\RadialShearNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\UV\RotateNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\UV\SpherizeNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\UV\TilingAndOffsetNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\UV\TriplanarNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Nodes\UV\TwirlNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\SubGraph\MaterialSubGraphAsset.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\SubGraph\SubGraph.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\SubGraph\SubGraphOutputNode.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\SurfaceModel\SurfaceMaterialOptions.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\SurfaceModel\SurfaceMaterialTags.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Util\CubemapPropertyChunk.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Util\DictionaryPool.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Util\FunctionRegistry.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Util\GenerationResults.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Util\GraphContext.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Util\GraphUtil.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Util\Identifier.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Util\ListPool.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Util\Logging.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Util\MatrixNames.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Util\ObjectPool.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Util\PooledObject.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Util\PropertyCollector.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Util\QueuePool.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Util\ScreenSpaceType.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Util\SerializationHelper.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Util\ShaderGenerator.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Util\ShaderGeneratorNames.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Util\ShaderSourceMap.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Util\ShaderStringBuilder.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Util\StackPool.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Util\TextureType.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Data\Util\UvChannel.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\DefaultShaderIncludes.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Drawing\Blackboard\BlackboardFieldPropertyView.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Drawing\Blackboard\BlackboardProvider.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Drawing\Controls\ButtonControl.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Drawing\Controls\ChannelEnumControl.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Drawing\Controls\ChannelEnumMaskControl.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Drawing\Controls\ChannelMixerControl.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Drawing\Controls\ColorControl.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Drawing\Controls\CubemapControl.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Drawing\Controls\DefaultControl.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Drawing\Controls\DielectricSpecularControl.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Drawing\Controls\EnumControl.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Drawing\Controls\EnumConversionControl.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Drawing\Controls\GradientControl.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Drawing\Controls\IControlAttribute.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Drawing\Controls\IntegerControl.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Drawing\Controls\ObjectControl.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Drawing\Controls\PopupControl.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Drawing\Controls\SliderControl.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Drawing\Controls\Texture3DControl.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Drawing\Controls\TextureArrayControl.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Drawing\Controls\TextureControl.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Drawing\Controls\ToggleControl.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Drawing\Controls\VectorControl.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Drawing\EdgeConnectorListener.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Drawing\INodeModificationListener.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Drawing\Inspector\MasterPreviewView.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Drawing\Inspector\WindowDockingLayout.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Drawing\Manipulators\Draggable.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Drawing\Manipulators\ResizeBorderFrame.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Drawing\Manipulators\ResizeSideHandle.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Drawing\Manipulators\Scrollable.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Drawing\Manipulators\WindowDraggable.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Drawing\MaterialGraphEditWindow.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Drawing\MaterialGraphPreviewGenerator.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Drawing\PreviewManager.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Drawing\PreviewRate.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Drawing\SearchWindowProvider.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Drawing\Views\FloatField.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Drawing\Views\GradientEdge.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Drawing\Views\GraphEditorView.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Drawing\Views\MaterialGraphView.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Drawing\Views\MaterialNodeView.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Drawing\Views\NodeSettingsView.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Drawing\Views\PBRSettingsView.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Drawing\Views\PortInputView.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Drawing\Views\PreviewSceneResources.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Drawing\Views\PropertyRow.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Drawing\Views\PropertySheet.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Drawing\Views\ShaderPort.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Drawing\Views\Slots\BooleanSlotControlView.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Drawing\Views\Slots\ColorRGBSlotControlView.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Drawing\Views\Slots\ColorSlotControlView.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Drawing\Views\Slots\CubemapSlotControlView.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Drawing\Views\Slots\GradientSlotControlView.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Drawing\Views\Slots\LabelSlotControlView.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Drawing\Views\Slots\MultiFloatSlotControlView.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Drawing\Views\Slots\ScreenPositionSlotControlView.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Drawing\Views\Slots\Texture3DSlotControlView.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Drawing\Views\Slots\TextureArraySlotControlView.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Drawing\Views\Slots\TextureSlotControlView.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Drawing\Views\Slots\UVSlotControlView.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Drawing\Views\UnlitSettingsView.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Importers\ShaderGraphAssetPostProcessor.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Importers\ShaderGraphImporter.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Importers\ShaderGraphImporterEditor.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Importers\ShaderSubGraphImporter.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Importers\ShaderSubGraphImporterEditor.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\ShaderGUI\PBRMasterGUI.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Util\CompatibilityExtensions.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Util\CopyPasteGraph.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Util\CreateSerializableGraph.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Util\IndexSet.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Util\TypeMapper.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Util\TypeMapping.cs
+D:\Projects\UnityProjects\Unity_2018.1.5f1\Ota\Library\PackageCache\com.unity.shadergraph@4.8.0-preview\Editor\Util\UIUtilities.cs

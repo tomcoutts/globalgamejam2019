@@ -1,0 +1,27 @@
+2019-01-26 11:52:28.4326 [DEBUG] Validating model...
+2019-01-26 11:52:28.6615 [DEBUG] Model updated
+2019-01-26 11:52:28.6625 [DEBUG] Authenticating with server...
+2019-01-26 11:52:28.9563 [DEBUG] Connected to room. (89628:SceneFusion:SceneFusion)
+2019-01-26 11:52:28.9823 [INFO] Connected to server.
+2019-01-26 11:52:28.9833 [DEBUG] OS : Microsoft Windows NT 10.0.17134.0
+2019-01-26 11:52:28.9833 [DEBUG] Unity Version : 2018.3.3f1
+2019-01-26 11:52:28.9833 [DEBUG] Pro License : False
+2019-01-26 11:52:28.9833 [DEBUG] Platform : WindowsEditor
+2019-01-26 11:52:28.9843 [DEBUG] Build Target : StandaloneWindows64
+2019-01-26 11:52:28.9843 [DEBUG] Scene Fusion version : 1.8.2
+2019-01-26 11:52:28.9843 [DEBUG] Scene Fusion client build : 0
+2019-01-26 11:52:28.9853 [DEBUG] User : rakitaegor@gmail.com
+2019-01-26 11:52:28.9853 [DEBUG] Waiting for server response
+2019-01-26 11:52:29.0882 [DEBUG] Tier: Scene Fusion Free, Permissions: 00001400
+2019-01-26 11:52:29.0882 [DEBUG] User Permissions: FFFFFFFF
+2019-01-26 11:52:29.4710 [DEBUG] No stand-in for UnityEngine.LocalizationAsset
+2019-01-26 11:52:29.4710 [DEBUG] No stand-in for UnityEngine.ProceduralMaterial
+2019-01-26 11:52:29.4710 [DEBUG] No stand-in for UnityEngine.ProceduralTexture
+2019-01-26 11:52:29.4710 [DEBUG] No stand-in for UnityEngine.TerrainLayer
+2019-01-26 11:52:29.4710 [DEBUG] No stand-in for UnityEngine.Experimental.VFX.VisualEffectAsset
+2019-01-26 11:52:29.4720 [DEBUG] No stand-in for ShaderSubGraphImporter
+2019-01-26 11:52:30.4075 [DEBUG] Loading complete
+2019-01-26 11:53:31.5992 [DEBUG] Spawn request. (Objects: 1)
+2019-01-26 11:54:44.9957 [DEBUG] Disconnecting from room (89628:SceneFusion:SceneFusion)
+2019-01-26 11:54:46.2882 [INFO] Disconnected from server.
+2019-01-26 11:54:46.2882 [DEBUG] Disconnect. (Duration: 135)
